@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  block-size: border-box;
+}
+
+/* general */
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+.header {
+  background: #333;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  overflow: auto;
+  line-height: 1.7em;
+  color: white;
+  height: 80px;
+}
+
+.s1 {
+  justify-content: center;
+  align-items: center;
+  background: no-repeat url(../images/cafe1.jpg);
+  background-size: cover;
+  color: white;
+  height: 700px;
+  text-align: center;
+}
+
+.header nav h1 {
+  float: left;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.header nav ul {
+  float: right;
+}
+
+.header nav ul li {
+  float: left;
+  list-style: none;
+
+}
+
+h2 {
+  margin: 0%;
+}
+
+section {
+  display: flex;
+  text-align: center;
+}
+
+.header nav ul a {
+  color: white;
+  display: block;
+  padding: 20px;
+}
+
+.header nav ul a:hover {
+  background-color: #444;
+  color: #fed330
+}
+
+.active {
+  background: #444;
+}
+
+.header nav h1 a {
+  color: white;
+}
+
+.separation {
+  background-color: black;
+  height: 10px;
+  width: 100px;
+  margin: 10px;
+
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+}
+
+.decouvrir {
+  background: white;
+}
+
+.decouvrir:hover {
+  background: #222;
+  color: white
+}
+
+.where {
+  height: 600px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.map,
+.adress {
+  width: 450px;
+  height: 250px;
+}
+
+.map {
+  background: no-repeat url(../images/cafe2.png);
+  background-size: cover;
+  border: 0.5px solid rgb(189, 187, 187);
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 600px;
+}
+
+.s2,
+.s4 {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.s2-el {
+  width: 500px;
+}
+
+.s1 p {
+  margin: 20px;
+  line-height: 2;
+}
+
+.s2 p {
+  line-height: 1.5;
+  margin: 5px;
+}
+
+.s4 p {
+  margin: 20px;
+  line-height: 1.5;
+}
+
+
+.s3 {
+  background: no-repeat url(../images/cafe3.jpg) center;
+  background-size: cover;
+  height: 500px;
+}
+
+i {
+  font-size: 3em;
+}
+
+.reserver {
+  background: #222;
+  color: white;
+}
+
+.reserver:hover {
+  background: white;
+  color: black;
+  border: 1px black solid;
+}
+
+.btn {
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.adr {
+  text-align: left;
+  margin-left: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+.adr h1 {
+  margin-bottom: 5px;
+}
+
+hr {
+  border: none;
+  background-color: #c3c8cf;
+  height: 0.5px;
+}
+
+.sp4 {
+  background: #be418cff;
+}
+
+.sp11 {
+  background: #8c5e24ff;
+}
+
+.sp4,
+.sp11 {
+  color: white;
+  padding: 0px 20px;
+  border-radius: 100%
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+  height: 600px;
+  text-align: left;
+
+}
+
+input,
+textarea {
+  width: 600px;
+  border: 0.2px solid #c3c8cf;
+  border-radius: 3px;
+}
+
+input {
+  height: 40px;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
