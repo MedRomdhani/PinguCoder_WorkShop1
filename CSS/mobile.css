@@ -1,0 +1,39 @@
+.header nav h1 {
+  float: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.header nav ul {
+  float: none;
+}
+
+.header nav ul li {
+  float: none;
+}
+
+.header nav ul a {
+  padding: 10px;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.s1 p {
+  margin: 10px;
+  line-height: 1.5;
+}
+
+.s1 {
+  height: 400px;
+}
+
+.s2,
+.s4 {
+  display: block;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
